@@ -63,7 +63,7 @@ describe('requestRobots', () => {
             }],
             isPending: false,
             error: ''
-        })
+        });
     })
 
     it('should handle REQUEST_ROBOTS_FAILED action', () => {
@@ -74,6 +74,6 @@ describe('requestRobots', () => {
             robots: [],
             isPending: false,
             error: 'NOOOOOO!!!!!!!'
-        })
+        });
     })
 })
